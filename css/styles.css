@@ -29,7 +29,6 @@ img {
     font-size: 2rem !important;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -52,12 +51,17 @@ footer {
     padding-left: 20px;
 }
 
-
 /* INDEX */
 
 #carouselExampleIndicators {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
+}
+
+.video-index {
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
 }
 
 /* PRODUCTOS */
@@ -135,7 +139,7 @@ button:hover {
     text-align: center;
 }
 
-h1 {
+h1{
     font-size: 5rem;
     text-align: center;
     margin-bottom: 4rem;
@@ -143,15 +147,14 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-
-h2 {
+h2{
     font-size: 3rem;
     margin-top: 5rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-h3 {
+h3{
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -190,10 +193,9 @@ h1:hover {
 
     }
 
-    .text-footer {
-        font-size: 1.5rem;
+    .color-nav {
+        font-size: 2rem;
     }
-
 }
 
 @media (max-width: 375px) {
@@ -202,10 +204,8 @@ h1:hover {
         width: 200px;
         height: 200px;
     }
-}
 
-.video-index{
-    display: flex;
-    justify-content: center;
-    margin-top: 30rem;
+    .color-nav {
+        font-size: 1.5rem;
+    }
 }
