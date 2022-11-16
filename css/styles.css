@@ -15,51 +15,27 @@ img {
 
 /* HEADER */
 
-header{
+.color-nav{
+    font-size: 3.5rem;
     background-color: #0A2239;
-    margin-bottom: 2rem;
 }
 
-header img{ 
-    position: relative;
-    left: 4rem;
-    top: 2rem;
-}
-
-.navegacion ul {
-    display: flex;
-    flex-direction: row;
+.collapse {
     justify-content: flex-end;
 }
 
-.navegacion li {
-    display: inline;
-    margin-right: 8rem;
-    font-size: 5rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.navegacion li a {
-    text-decoration: none;
+.navbar-toggler span {
     color: white;
-    font-size: 2.6rem;
+    font-size: 2rem !important;
 }
 
-.navegacion a:hover{
-    color: grey;
-}
-
-/* BODY */
-
-body {
-    background-color: #ccc;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 /* FOOTER */
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #0A2239;
     padding: 3rem;
     font-size: 1.5rem;
@@ -69,19 +45,19 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
-/* INDEX */
-
-.ofertas-index {
+.social-medias {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
 }
 
-.imagen-index {
-    max-height: 100rem;
-    max-width: 80rem;
-    margin-bottom: 10rem;
-    margin-top: 6rem;
+
+/* INDEX */
+
+#carouselExampleIndicators{
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* PRODUCTOS */
@@ -123,10 +99,10 @@ button:hover {
 
 .formulario {
     font-size: 1.5rem;
-    margin: 10rem;
-    background-color: #ccc;
+    background-color: #0A2239;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 /* UBICACIÓN */
@@ -178,7 +154,29 @@ h3 {
     text-align: center;
 }
 
-.probando{
-    display: flex;
-    justify-content: center;
+.nav-link {
+    color: white;
+    padding-left: 20px !important;
+}
+
+.nav-link:hover {
+    color: antiquewhite !important;
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 2.5rem;
+    
+    }
+
+    .text-footer{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 0.5rem;
+    }
 }
